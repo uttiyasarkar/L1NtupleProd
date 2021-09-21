@@ -1,0 +1,150 @@
+DEBUG 2021-05-10 13:58:16.352 UTC: 	 CRAB Client version: v3.210323
+DEBUG 2021-05-10 13:58:16.353 UTC: 	 Running on: Linux lxplus797.cern.ch 3.10.0-1160.24.1.el7.x86_64 #1 SMP Thu Apr 8 19:51:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-05-10 13:58:16.353 UTC: 	 Executing command: 'kill'
+DEBUG 2021-05-10 13:58:16.353 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-05-10 13:58:16.354 UTC: 	 Error: usarkar is not a valid CRAB project directory.
+ERROR 2021-05-10 13:58:16.354 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 639, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: usarkar is not a valid CRAB project directory.
+INFO 2021-05-10 13:58:16.357 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
+DEBUG 2021-05-11 14:30:36.714 UTC: 	 CRAB Client version: v3.210323
+DEBUG 2021-05-11 14:30:36.715 UTC: 	 Running on: Linux lxplus7118.cern.ch 3.10.0-1160.24.1.el7.x86_64 #1 SMP Thu Apr 8 19:51:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-05-11 14:30:36.715 UTC: 	 Executing command: 'submit'
+DEBUG 2021-05-11 14:30:36.716 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+DEBUG 2021-05-11 14:39:07.851 UTC: 	 CRAB Client version: v3.210323
+DEBUG 2021-05-11 14:39:07.851 UTC: 	 Running on: Linux lxplus7118.cern.ch 3.10.0-1160.24.1.el7.x86_64 #1 SMP Thu Apr 8 19:51:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-05-11 14:39:07.851 UTC: 	 Executing command: 'status'
+DEBUG 2021-05-11 14:39:07.898 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-05-11 14:39:07.901 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/Run2018C_ZeroBias_noRECO_2021-05-11_15-46-24
+ERROR 2021-05-11 14:39:07.901 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 643, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 505, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/Run2018C_ZeroBias_noRECO_2021-05-11_15-46-24
+INFO 2021-05-11 14:39:07.904 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
+DEBUG 2021-05-21 08:21:44.982 UTC: 	 CRAB Client version: v3.210323
+DEBUG 2021-05-21 08:21:44.982 UTC: 	 Running on: Linux lxplus721.cern.ch 3.10.0-1160.24.1.el7.x86_64 #1 SMP Thu Apr 8 19:51:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-05-21 08:21:44.982 UTC: 	 Executing command: 'kill'
+DEBUG 2021-05-21 08:21:44.982 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-05-21 08:21:44.983 UTC: 	 Error: Please indicate the CRAB project directory with --dir=<project-directory>.
+ERROR 2021-05-21 08:21:44.983 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210323.00/lib/CRABClient/Commands/SubCommand.py", line 635, in validateOptions
+    raise ex
+MissingOptionException: [91mError[0m: Please indicate the CRAB project directory with --dir=<project-directory>.
+INFO 2021-05-21 08:21:45.133 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
+DEBUG 2021-06-02 13:46:14.942 UTC: 	 CRAB Client version: v3.210601
+DEBUG 2021-06-02 13:46:14.943 UTC: 	 Running on: Linux lxplus713.cern.ch 3.10.0-1160.24.1.el7.x86_64 #1 SMP Thu Apr 8 19:51:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-06-02 13:46:14.943 UTC: 	 Executing command: 'status'
+DEBUG 2021-06-02 13:46:14.943 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-06-02 13:46:14.945 UTC: 	 Error: Run2018C_ZeroBias_noRECO_2021-06-02_11-35-22/crab_ZeroBias2018C-weekZB54IOVv2-l1t-integration-v105p13-CMSSW-11_2_0__320040_ZeroBias_Run2018C-v1 is not a valid CRAB project directory.
+ERROR 2021-06-02 13:46:14.946 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: Run2018C_ZeroBias_noRECO_2021-06-02_11-35-22/crab_ZeroBias2018C-weekZB54IOVv2-l1t-integration-v105p13-CMSSW-11_2_0__320040_ZeroBias_Run2018C-v1 is not a valid CRAB project directory.
+INFO 2021-06-02 13:46:14.966 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
+DEBUG 2021-06-04 09:53:57.822 UTC: 	 CRAB Client version: v3.210601
+DEBUG 2021-06-04 09:53:57.822 UTC: 	 Running on: Linux lxplus752.cern.ch 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-06-04 09:53:57.822 UTC: 	 Executing command: 'submit'
+DEBUG 2021-06-04 09:53:57.823 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+DEBUG 2021-07-22 10:06:09.841 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-07-22 10:06:09.842 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-07-22 10:06:09.842 UTC: 	 Executing command: 'submit'
+DEBUG 2021-07-22 10:06:09.842 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+DEBUG 2021-07-22 10:06:54.282 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-07-22 10:06:54.283 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-07-22 10:06:54.283 UTC: 	 Executing command: 'submit'
+DEBUG 2021-07-22 10:06:54.284 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+DEBUG 2021-07-22 10:06:54.287 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2021-08-05 15:46:01.910 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-08-05 15:46:01.910 UTC: 	 Running on: Linux lxplus795.cern.ch 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-08-05 15:46:01.910 UTC: 	 Executing command: 'status'
+DEBUG 2021-08-05 15:46:01.911 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-08-05 15:46:01.939 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/Run2018C_ZeroBias_noRECO_2021-07-22_12-08-59
+ERROR 2021-08-05 15:46:01.939 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/Run2018C_ZeroBias_noRECO_2021-07-22_12-08-59
+INFO 2021-08-05 15:46:02.345 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
+DEBUG 2021-08-09 12:38:18.992 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-08-09 12:38:18.992 UTC: 	 Running on: Linux lxplus795.cern.ch 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-08-09 12:38:18.992 UTC: 	 Executing command: 'kill'
+DEBUG 2021-08-09 12:38:18.993 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-08-09 12:38:18.994 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/Run2018C_ZeroBias_noRECO_2021-08-09_14-33-12/crab_ZeroBias2018C-weekFill_6960_246-l1t-integration-v105p13-CMSSW-11_2_0__320038_ZeroBias_Run2018C-v1
+ERROR 2021-08-09 12:38:18.994 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/Run2018C_ZeroBias_noRECO_2021-08-09_14-33-12/crab_ZeroBias2018C-weekFill_6960_246-l1t-integration-v105p13-CMSSW-11_2_0__320038_ZeroBias_Run2018C-v1
+INFO 2021-08-09 12:38:19.044 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
+DEBUG 2021-08-09 12:44:06.480 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-08-09 12:44:06.480 UTC: 	 Running on: Linux lxplus795.cern.ch 3.10.0-1160.36.2.el7.x86_64 #1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-08-09 12:44:06.480 UTC: 	 Executing command: 'status'
+DEBUG 2021-08-09 12:44:06.480 UTC: 	 Found CRAB cache file /afs/cern.ch/user/u/usarkar/.crab3
+ERROR 2021-08-09 12:44:06.481 UTC: 	 Error: Run2018C_ZeroBias_noRECO_20 is not a valid CRAB project directory.
+ERROR 2021-08-09 12:44:06.481 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: Run2018C_ZeroBias_noRECO_20 is not a valid CRAB project directory.
+INFO 2021-08-09 12:44:06.486 UTC: 	 Log file is /afs/cern.ch/work/u/usarkar/Run2L1Ntuple/CMSSW_11_2_0/src/crab.log
